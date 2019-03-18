@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html,
+body {
+	background: #EEEEEE;
+}
+
+input,
+textarea {
+	border: 0;
+	resize: none;
+	background: transparent;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+.card-title {
+	color: #333333;
+	font-family: 'Impact';
+	font-size: 20px;
+	padding: 6px;
+	width: 100%;
+}
+
+.card-deion {
+	color: #333333;	
+	font-size: 16px;
+	padding: 6px;
+	width: 100%;
+}
+
+.color {
+	border-radius: 50%;
+}
+
+.card {
+	background: #FFFFFF;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	margin: 10px 0px 10px 0px;
+	padding: 15px 0px;
+}
+
+.btn-card-options {
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+.btn-card-options:hover {
+	border: 4px solid  rgba(255,255,255,0.4);
+}
+
+.activeColor {
+	border: 4px solid  #FFFFFF;	
+}
+
+.btn-cta {
+	color: #fff !important;
+	text-transform: lowercase;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: 'Segoe UI';
+	letter-spacing: 1px;
+	background: rgba(255,255,255,0.1);
+	margin-top: -8px;
+}
+
+.btn-cta:hover,
+.btn-cta:active
+.btn-cta:focus {
+	text-decoration: none;
+	background: rgba(0,0,0,0.1);
+}
+
+.btn-card-options.Red { background-color: #F44336 }
+.btn-card-options.Pink { background-color: #E91E63 }
+.btn-card-options.Purple { background-color: #9C27B0 }
+.btn-card-options.DeepPurple { background-color: #673AB7 }
+.btn-card-options.Indigo { background-color: #3F51B5 }
+.btn-card-options.Blue { background-color: #2196F3 }
+.btn-card-options.LightBlue { background-color: #03A9F4 }
+.btn-card-options.Cyan { background-color: #00BCD4 }
+.btn-card-options.Teal { background-color: #009688 }
+.btn-card-options.Green { background-color: #4CAF50 }
+.btn-card-options.LightGreen { background-color: #8BC34A }
+.btn-card-options.Lime { background-color: #CDDC39 }
+.btn-card-options.Yellow { background-color: #FFEB3B }
+.btn-card-options.Amber { background-color: #FFC107 }
+.btn-card-options.Orange { background-color: #FF9800 }
+.btn-card-options.DeepOrange { background-color: #FF5722 }
+.btn-card-options.Brown { background-color: #795548 }
+
+.card.Red { background-color: #F44336 }
+.card.Pink { background-color: #E91E63 }
+.card.Purple { background-color: #9C27B0 }
+.card.DeepPurple { background-color: #673AB7 }
+.card.Indigo { background-color: #3F51B5 }
+.card.Blue { background-color: #2196F3 }
+.card.LightBlue { background-color: #03A9F4 }
+.card.Cyan { background-color: #00BCD4 }
+.card.Teal { background-color: #009688 }
+.card.Green { background-color: #4CAF50 }
+.card.LightGreen { background-color: #8BC34A }
+.card.Lime { background-color: #CDDC39 }
+.card.Yellow { background-color: #FFEB3B }
+.card.Amber { background-color: #FFC107 }
+.card.Orange { background-color: #FF9800 }
+.card.DeepOrange { background-color: #FF5722 }
+.card.Brown { background-color: #795548 } 
+
+/* .card.Red input, .card.Red textarea,
+.card.Pink input, .card.Pink textarea,
+.card.Purple input, .card.Purple textarea,
+.card.DeepPurple input, .card.DeepPurple textarea,
+.card.Indigo input, .card.Indigo textarea,
+.card.Blue input, .card.Blue textarea,
+.card.Teal input, .card.Teal textarea,
+.card.DeepOrange input, .card.DeepOrange textarea,
+.card.Brown input, .card.Brown textarea,
+.card.BlueGray input, .card.BlueGray textarea,
+.card.Black input, .card.Black textarea {
+	color: #FFF;
+} */
+
+body {
+	color: #666;	
+	font-family: 'Lato', sans-serif;
+}
+
+.title {
+	bottom: 0;
+	font-size: 20px;
+	opacity: 0.4;
+	padding: 10px 30px;
+	position: fixed;
+	right: 0;
+	text-transform: uppercase;
+}
+
+.doing-section .card {
+	/*padding: 0;*/
+}
+
+.done-section {
+	position: absolute;
+	right: 0;
+}
+
+.done-section .card {
+	padding: 0;
+	margin: 10px 0 -70px 0
+}
+
+.done-section:hover .card {
+	margin: 10px 0 -40px 0
+}
+
+.animate {
+	-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 600px) {
+  .card-cta-section {
+    margin-top: -20px;
+  }
+}
+ 
