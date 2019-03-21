@@ -5,6 +5,7 @@ interface IProps {
     placeholder: string;
     className: string;
 }
+
 interface IState {
     value: string;
 }
